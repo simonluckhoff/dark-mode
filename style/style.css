@@ -43,3 +43,11 @@ body{
     cursor: pointer;
     padding: 0 25px 0 0px;
 }
+
+.clickme p{
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--secondary-color);
+}
