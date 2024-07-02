@@ -1,0 +1,45 @@
+
+
+:root{
+    --primary-color: #edf2fc;
+    --secondary-color: #212121;
+}
+
+.dark-theme{
+    --primary-color: #000106;
+    --secondary-color: #fff;
+}
+
+body{
+    font-family: monospace;
+    background-color: var(--primary-color);
+}
+
+.m3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo .m3{
+    width: 28vh;
+}
+
+.m3 h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--secondary-color);
+}
+
+#icon{
+    width: 30px;
+    cursor: pointer;
+    padding: 0 25px 0 0px;
+}
